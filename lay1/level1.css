@@ -60,16 +60,3 @@ section#habilidades>h2 {
     width: 200%;
     display: flex;
 }
-
-/* FOOTER */
-footer {
-    padding: 10px 0;
-}
-
-footer i {
-    color: var(--cor5);
-}
-
-#creditos {
-    padding: 0 15px;
-}
