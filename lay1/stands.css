@@ -358,6 +358,11 @@ footer {
   gap: 10px;
 }
 
+#socialMedias a {
+  text-decoration: none;
+  color: var(--cor5);
+}
+
 #socialMedias i {
   font-size: 1.5em;
 }
