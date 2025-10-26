@@ -127,7 +127,7 @@ section#sobreMim {
   border-radius: 50%;
   height: 100%;
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
   object-position: top;
 }
 
@@ -212,7 +212,8 @@ section#habilidades > h2 {
   width: 0%;
 }
 
-#msg p{
+#msg p {
+  text-align: center;
   padding-top: 5px;
 }
 
