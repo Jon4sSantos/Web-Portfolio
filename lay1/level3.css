@@ -1,90 +1,90 @@
 /* GERAIS */
 section {
-    background-color: var(--cor1);
+  background-color: var(--cor1);
 }
 
 /* -- SOBRE MIM -- */
 section#sobreMim {
-    height: 100vh;
-    padding: 10px 30px;
-    justify-content: space-between;
-    gap: 60px;
+  height: 100vh;
+  padding: 10px 30px;
+  justify-content: space-between;
+  gap: 60px;
 }
 
 #sobreMim article h2 {
-    font-size: var(--tamanhoTitulos);
+  font-size: var(--tamanhoTitulos);
 }
 
 #sobreMim picture {
-    height: 100%;
+  height: 100%;
 }
 
-#sobreMim picture>img {
-    border-radius: 10px;
-    object-fit: cover;
-    object-position: center;
+#sobreMim picture > img {
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* HABILIDADES */
 section#habilidades {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
-section#habilidades>h2 {
-    font-size: var(--tamanhoTitulos);
+section#habilidades > h2 {
+  font-size: var(--tamanhoTitulos);
 }
 
 .linguagem {
-    border-right: 2px solid var(--cor5);
-    border-radius: 10px 0 0 10px;
+  border-right: 2px solid var(--cor5);
+  border-radius: 10px 0 0 10px;
 }
 
 /* -- PROJETOS -- */
 #meusProjetos h2 {
-    font-size: var(--tamanhoTitulos);
-    background-color: var(--cor1);
+  font-size: var(--tamanhoTitulos);
+  background-color: var(--cor1);
 }
 
 /* SLIDER */
 #slider {
-    height: 700px;
-    width: 50%;
-    margin: auto;
+  height: 700px;
+  width: 50%;
+  margin: auto;
 }
 
 #slides {
-    gap: 20px;
+  gap: 20px;
 }
 
 /* PROJETOS */
 #projetos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 50px;
-    gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 50px;
+  gap: 50px;
 }
 
 .projeto {
-    padding: 5px;
-    border-radius: 5px 5px 0 0;
-    border-bottom: 2px solid var(--cor4);
-    background-color: var(--cor1);
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid var(--cor4);
+  background-color: var(--cor1);
 }
 
 .projeto article {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .projeto h3 {
-    font-size: var(--tamanhoTitulos);
-    padding: 10px 0 10px 0;
+  font-size: var(--tamanhoTitulos);
+  padding: 10px 0 10px 0;
 }
 
 .projeto picture {
-    height: 50%;
+  height: 50%;
 }
 
-.projeto picture>img {
-    border-radius: 10px;
+.projeto picture > img {
+  border-radius: 10px;
 }

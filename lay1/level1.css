@@ -49,7 +49,7 @@ section#habilidades>h2 {
 #linguagens {
     display: flex;
     flex-flow: column nowrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 #msg {
