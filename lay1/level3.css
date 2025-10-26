@@ -23,6 +23,8 @@ section#sobreMim {
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
+  border: none;
+  outline: none;
 }
 
 /* HABILIDADES */

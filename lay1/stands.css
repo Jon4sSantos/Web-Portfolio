@@ -130,6 +130,8 @@ section#sobreMim {
   width: 100%;
   object-fit: cover;
   object-position: top;
+  border: 5px solid var(--cor2);
+  outline: 3px solid var(--cor4);
 }
 
 /* HABILIDADES */
