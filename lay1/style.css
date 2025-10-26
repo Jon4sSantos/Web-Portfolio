@@ -298,6 +298,12 @@ section#meusProjetos {
 }
 
 /* PROJEOS */
+#projetos {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
 .projeto {
      box-shadow: inset -1px 4px 11px -8px var(--cor5);
      background-color: var(--cor2);
