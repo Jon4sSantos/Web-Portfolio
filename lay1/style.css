@@ -21,6 +21,7 @@ body {
      background-color: var(--cor1);
      font-family: Roboto;
      color: var(--cor5);
+     position: relative;
 }
 
 img {
@@ -39,6 +40,9 @@ header {
      display: flex;
      justify-content: space-between;
      align-items: center;
+     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #botaomenu {
@@ -141,9 +145,7 @@ section#sobreMim {
 
 /* HABILIDADES */
 section#habilidades {
-     height: 320px;
      padding: 5px;
-     position: relative;
 }
 
 section#habilidades > h2 {
@@ -211,8 +213,8 @@ section#habilidades > h2 {
 }
 
 #msg {
-     position: absolute;
-     bottom: 10px;
+     text-align: center;
+     padding-top: 10px;
 }
 
 /* -- PROJETOS -- */
@@ -330,9 +332,8 @@ section#meusProjetos {
 footer {
      border-top: 2px solid var(--cor3);
      height: 150px;
-     padding: 10px 20px;
+     padding: 10px 0;
      position: relative;
-
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -341,6 +342,10 @@ footer {
 
 footer i {
      color: var(--cor5);
+}
+
+#creditos {
+     padding: 0 15px;
 }
 
 #socialMedias {

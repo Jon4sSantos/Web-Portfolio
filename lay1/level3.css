@@ -8,6 +8,8 @@
     --cor3: #535353;
     --cor4: #7d7d7d;
     --cor5: #cfcfcf;
+    --tamanhoTitulos: 2em;
+    --tamanhoParagrafos: 1em;
 }
 
 * {
@@ -29,13 +31,13 @@ img {
 }
 
 section {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     border-radius: 10px;
-    box-shadow: inset -1px 4px 11px -8px var(--cor5);
 }
 
 /* HEADER */
 header {
+    background-color: var(--cor1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +49,7 @@ header {
 
 header nav h2 {
     padding: 10px 0 0px 0;
-    font-size: 2em;
+    font-size: var(--tamanhoTitulos);
     display: flex;
     justify-content: center;
 }
@@ -63,7 +65,7 @@ header ul {
 }
 
 header li {
-    font-size: 1.1em;
+    font-size: var(--tamanhoParagrafos);
 }
 
 header li:hover {
@@ -80,10 +82,7 @@ header a {
 
 /* MAIN */
 main {
-    width: 90%;
-    margin: 10px auto;
     border-radius: 5px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,49 +90,51 @@ main {
 
 /* -- SOBRE MIM -- */
 section#sobreMim {
-    height: 600px;
-    padding: 10px;
     display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    gap: 60px;
+    height: 100vh;
 }
 
 #sobreMim article {
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
 }
 
 #sobreMim article h2 {
-    font-size: 3em;
-    padding: 15px 0 10px 0px;
-    text-align: start;
-    text-indent: 50px;
+    font-size: var(--tamanhoTitulos);
+    padding: 0 50px 15px 0;
 }
 
 #sobreMim article p {
-    font-size: 2em;
-    padding: 10px 10px 0 10px;
-    height: 80%;
-    margin-top: 60px;
+    font-size: var(--tamanhoParagrafos);
 }
 
 #sobreMim picture {
     height: 100%;
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    
 }
 
-#sobreMim picture > img {
+#sobreMim img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 /* HABILIDADES */
 section#habilidades {
     padding: 8px;
     position: relative;
+    width: 90%;
+    margin: auto;
 }
 
 section#habilidades>h2 {
+    font-size: var(--tamanhoTitulos);
     padding: 10px 0 15px 0;
     text-align: center;
 }
@@ -174,6 +175,7 @@ section#habilidades>h2 {
 .nomeEicone p {
     height: 100%;
     display: flex;
+    font-size: var(--tamanhoParagrafos);
     align-items: center;
     gap: 10px;
 }
@@ -217,6 +219,7 @@ section#habilidades>h2 {
 section#meusProjetos {
     background-color: var(--cor1);
     padding-bottom: 10px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -226,23 +229,24 @@ section#meusProjetos {
     padding: 15px;
     text-align: center;
     margin-bottom: -15px;
-    background-color: var(--cor2);
     border-radius: 5px 5px 0 0;
-    box-shadow: inset 0px 4px 11px -8px var(--cor5);
-
+    font-size: var(--tamanhoTitulos);
 }
 
 /* SLIDER */
 #slider {
-    height: 600px;
+    height: 700px;
     border-radius: 5px;
     overflow: hidden;
+    width: 25%;
+    margin: auto;
 }
 
 #slides {
     height: 100%;
     width: 200%;
     display: flex;
+    gap: 20px;
 }
 
 #slides input {
@@ -291,56 +295,52 @@ section#meusProjetos {
 /* PROJEOS */
 .projeto {
     box-shadow: inset -1px 4px 11px -8px var(--cor5);
-    background-color: var(--cor2);
-    padding: 10px 5px 5px 5px;
+    padding: 5px;
     border-radius: 5px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    height: 300px;  
 }
 
 .projeto h3 {
+    font-size: var(--tamanhoTitulos);
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .projeto p {
+    font-size: var(--tamanhoParagrafos);
     padding: 0 5px 10px 5px;
 }
 
 .projeto picture {
     display: flex;
-    height: 200px;
+    height: 100%;
     width: 50%;
     margin: auto;
     padding: 5px;
 }
 
 .projeto picture > img {
-    object-fit: cover;
     object-position: bottom;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-.projeto picture > img:hover {
-    display: none;
-}
 
 footer {
     border-top: 2px solid var(--cor3);
     height: 150px;
     padding: 10px 20px;
     position: relative;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-footer i {
-    color: var(--cor5);
+#creditos {
+    padding-top: 15px;
 }
 
 #socialMedias {
