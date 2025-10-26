@@ -1,0 +1,75 @@
+/* HEADER */
+header {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#botaomenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#botaomenu>i {
+    font-size: var(--tamanhoTitulos);
+}
+
+header nav h2 {
+    padding: 5px 0 0 10px;
+    font-size: var(--tamanhoParagrafos);
+}
+
+header ul {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* -- SOBRE MIM -- */
+section#sobreMim {
+    gap: 10px;
+}
+
+/* HABILIDADES */
+section#habilidades {
+    padding: 5px;
+}
+
+section#habilidades>h2 {
+    padding: 10px;
+}
+
+#linguagens {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 6px;
+}
+
+#msg {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* -- PROJETOS -- */
+/* SLIDER */
+#slides {
+    height: 250px;
+    width: 200%;
+    display: flex;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px 0;
+}
+
+footer i {
+    color: var(--cor5);
+}
+
+#creditos {
+    padding: 0 15px;
+}
