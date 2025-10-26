@@ -305,6 +305,7 @@ section#meusProjetos {
   display: flex;
   flex-flow: row wrap;
   background-color: var(--cor2);
+  border-radius: 8px;
 }
 
 .projeto h3 {
