@@ -18,6 +18,8 @@ header {
 header nav h2 {
     padding: 5px 0 0 10px;
     font-size: var(--tamanhoParagrafos);
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 header ul {
@@ -28,9 +30,10 @@ header a {
     text-decoration: none;
 }
 
-/* -- SOBRE MIM -- */
+/* SOBRE MIM */
 section#sobreMim {
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 /* HABILIDADES */
@@ -53,7 +56,7 @@ section#habilidades>h2 {
     padding-top: 10px;
 }
 
-/* -- PROJETOS -- */
+/* PROJETOS */
 /* SLIDER */
 #slides {
     height: 250px;
