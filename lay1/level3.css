@@ -72,18 +72,10 @@ section#habilidades > h2 {
   background-color: var(--cor1);
 }
 
-.projeto article {
-  padding: 0 20px;
-}
-
 .projeto h3 {
   font-size: var(--tamanhoTitulos);
-  padding: 10px 0 10px 0;
 }
 
-.projeto picture {
-  height: 50%;
-}
 
 .projeto picture > img {
   border-radius: 10px;
