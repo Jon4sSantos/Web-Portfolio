@@ -168,6 +168,7 @@ section#habilidades > h2 {
 
 .linguagem:hover .progresso {
   background-color: var(--cor1);
+  box-shadow: none;
 }
 
 .nomeEicone {
