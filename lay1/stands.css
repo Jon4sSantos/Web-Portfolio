@@ -72,7 +72,7 @@ header li {
 
 header li:hover {
   transform: scale(1.3);
-  text-decoration: u;
+  text-decoration: underline;
   transition: transform 0.3s;
 }
 
