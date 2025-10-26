@@ -37,16 +37,20 @@ section {
 
 /* HEADER */
 header {
+     background-color: var(--cor1);
      display: flex;
      justify-content: space-between;
      align-items: center;
+     padding: 10px;
      position: sticky;
     top: 0;
     z-index: 1;
 }
 
 #botaomenu {
-     padding: 10px 10px 0 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      cursor: pointer;
 }
 
@@ -109,6 +113,7 @@ section#sobreMim {
      height: 250px;
      padding: 5px;
      display: flex;
+     gap: 10px;
 }
 
 #sobreMim article {
@@ -118,14 +123,14 @@ section#sobreMim {
 }
 
 #sobreMim article h2 {
-
      font-size: 1em;
      padding: 5px 0 5px 0px;
      text-align: center;
 }
 
 #sobreMim article p {
-     padding: 5px 6px 0 5px;
+     padding: 5px 5px 0 5px;
+     text-align: center;
 }
 
 #sobreMim picture {
@@ -238,14 +243,13 @@ section#meusProjetos {
 
  /* SLIDER */
 #slider {
-     height: 200px;
+     height: 250px;
      border-radius: 5px;
      overflow: hidden;
 }
 
 #slides {
-
-     height: 200px;
+     height: 250px;
      width: 200%;
      display: flex;
 }
@@ -313,7 +317,6 @@ section#meusProjetos {
 }
 
 .projeto picture {
-
      display: flex;
      height: 200px;
      width: 50%;

@@ -147,8 +147,9 @@ section#habilidades>h2 {
 
 .linguagem {
     border-left: 5px solid var(--cor5);
+    border-right: 2px solid var(--cor5);
     box-shadow: 1px 1px 7px -3px var(--cor3);
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     height: 60px;
     padding: 0 10px;
     display: flex;
@@ -238,7 +239,7 @@ section#meusProjetos {
     height: 700px;
     border-radius: 5px;
     overflow: hidden;
-    width: 25%;
+    width: 50%;
     margin: auto;
 }
 
@@ -292,15 +293,27 @@ section#meusProjetos {
     transition: 1s;
 }
 
-/* PROJEOS */
+/* PROJETOS */
+#projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+    gap: 50px;
+    
+}
+
 .projeto {
     box-shadow: inset -1px 4px 11px -8px var(--cor5);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     display: flex;
-    flex-flow: row nowrap;
-    height: 300px;  
+    flex-flow: row wrap;
+    border-bottom: 2px solid var(--cor4);
 }
+
+.projeto article {
+    padding: 0 20px;
+} 
 
 .projeto h3 {
     font-size: var(--tamanhoTitulos);
@@ -310,19 +323,18 @@ section#meusProjetos {
 
 .projeto p {
     font-size: var(--tamanhoParagrafos);
-    padding: 0 5px 10px 5px;
+    padding: 0 5px 5px 5px;
 }
 
 .projeto picture {
     display: flex;
-    height: 100%;
     width: 50%;
-    margin: auto;
+    height: 50%;
+    margin: 0 auto;
     padding: 5px;
 }
 
 .projeto picture > img {
-    object-position: bottom;
     width: 100%;
     height: 100%;
     border-radius: 10px;
