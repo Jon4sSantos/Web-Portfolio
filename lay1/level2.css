@@ -1,4 +1,9 @@
-/* -- PROJETOS -- */
+/* SOBRE MIM */
+#sobreMim picture {
+  margin-right: 10px;
+}
+
+/* PROJETOS */
 #meusProjetos h2 {
     padding: 15px;
     margin-bottom: -15px;
@@ -9,7 +14,6 @@
     height: 350px;
 }
 
-/* PROJETOS */
 #projetos {
     display: flex;
     flex-direction: column;
