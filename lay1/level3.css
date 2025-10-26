@@ -66,7 +66,6 @@ section#habilidades > h2 {
 }
 
 .projeto {
-  padding: 5px;
   border-bottom: 2px solid var(--cor4);
   background-color: var(--cor1);
 }

@@ -309,6 +309,7 @@ section#meusProjetos {
   flex-flow: row wrap;
   background-color: var(--cor2);
   border-radius: 8px;
+  padding: 10px;
 }
 
 .projeto h3 {
@@ -317,6 +318,7 @@ section#meusProjetos {
 }
 
 .projeto p {
+     text-align: justify;
   padding: 0 5px 10px 5px;
 }
 
