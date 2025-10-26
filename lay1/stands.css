@@ -164,11 +164,11 @@ section#habilidades > h2 {
   background-color: var(--cor3);
   transition: 0.2s;
   padding: 0 15px;
+  box-shadow: none;
 }
 
 .linguagem:hover .progresso {
   background-color: var(--cor1);
-  box-shadow: none;
 }
 
 .nomeEicone {
