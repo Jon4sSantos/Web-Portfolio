@@ -312,15 +312,11 @@ section#meusProjetos {
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
-}
-
-.projeto article {
-  padding: 0 20px;
+  padding: 15px;
 }
 
 .projeto h3 {
   text-align: center;
-  padding: 15px 0;
 }
 
 .projeto p {
@@ -331,7 +327,6 @@ section#meusProjetos {
 .projeto picture {
   width: 40%;
   height: 200px;
-  background-color: red;
 }
 
 .projeto picture > img {
