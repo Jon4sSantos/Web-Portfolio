@@ -1,8 +1,9 @@
 let ONorOFF_darkMode = false;
-let interruptor = document.getElementById('interruptor_darkMode'); 
+let interruptor = document.getElementById('interruptor_darkMode');
+
 darkMode.addEventListener('click', function darkModeOn() {
     const root = document.documentElement;
-
+    
     if (!ONorOFF_darkMode) {
         interruptor.style.left = '60%';
         root.style.setProperty('--cor1', '#ffffff');

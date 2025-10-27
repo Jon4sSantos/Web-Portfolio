@@ -213,7 +213,7 @@ section#habilidades > h2 {
 }
 
 #javascript .progresso {
-  width: 0%;
+  width: 1%;
 }
 
 #msg p {
@@ -227,14 +227,12 @@ section#meusProjetos {
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   box-shadow: none;
 }
 
 #meusProjetos h2 {
   padding: 15px;
   text-align: center;
-  margin-bottom: -15px;
   background-color: var(--cor2);
   border-radius: 5px 5px 0 0;
   box-shadow: inset 0px 8px 8px -8px var(--cor4);
@@ -246,7 +244,7 @@ section#meusProjetos {
   border-radius: 5px;
   overflow: hidden;
   width: 45%;
-  margin: auto;
+  margin: 10px auto;
 }
 
 #slides {
