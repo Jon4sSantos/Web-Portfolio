@@ -1,0 +1,33 @@
+header li #darkMode {
+  width: 50px;
+  height: 20px;
+  background-color: var(--cor5);
+  border-radius: 20px;
+  position: relative;
+}
+
+header li #interruptor_darkMode {
+  width: 40%;
+  height: 100%;
+  background-color: var(--cor1);
+  border-radius: 20px;
+  transform: scale(.85);
+  position: absolute;
+  left: 0;
+  transition: left 0.5s, background-color 0.5s;
+}
+
+body.themeMode, header.themeMode, footer.themeMode {
+    transition: 0.6s;
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+#darkMode.themeMode {
+    background-color: var(--cor2);
+}
+
+#darkMode.themeMode #interruptor_darkMode {
+    left: 60%;
+    background-color: var(--cor5);
+}
