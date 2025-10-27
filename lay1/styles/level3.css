@@ -49,21 +49,12 @@ section#habilidades > h2 {
 }
 
 /* SLIDER */
-#slider {
-  height: 700px;
-  width: 50%;
-  margin: auto;
-}
-
-#slides {
-  gap: 20px;
-}
 
 /* PROJETOS */
 #projetos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 50px;
+  padding: 50px;
   gap: 50px;
 }
 
@@ -75,7 +66,6 @@ section#habilidades > h2 {
 .projeto h3 {
   font-size: var(--tamanhoTitulos);
 }
-
 
 .projeto picture > img {
   border-radius: 10px;
