@@ -240,7 +240,6 @@ section#meusProjetos {
 
 /* SLIDER */
 #slider {
-  height: 100px;
   border-radius: 5px;
   overflow: hidden;
   width: 45%;
@@ -327,7 +326,6 @@ section#meusProjetos {
 
 .projeto picture {
   width: 50%;
-  height: 300px;
 }
 
 .projeto picture > img {
