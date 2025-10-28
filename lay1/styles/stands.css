@@ -328,8 +328,9 @@ section#meusProjetos {
 }
 
 .projeto picture {
-  width: 50%;
+  width: 100%;
   cursor: pointer;
+  padding: 30px;
 }
 
 .projeto picture img {
