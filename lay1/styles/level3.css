@@ -54,7 +54,7 @@ section#habilidades > h2 {
 #projetos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px;
+  padding: 20px 50px;
   gap: 50px;
 }
 
@@ -65,8 +65,4 @@ section#habilidades > h2 {
 
 .projeto h3 {
   font-size: var(--tamanhoTitulos);
-}
-
-.projeto picture > img {
-  border-radius: 10px;
 }
