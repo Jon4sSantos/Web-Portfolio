@@ -50,6 +50,10 @@ section#habilidades > h2 {
 
 /* SLIDER */
 
+#slider {
+  height: 400px;
+}
+
 /* PROJETOS */
 #projetos {
   display: grid;

@@ -244,11 +244,11 @@ section#meusProjetos {
   overflow: hidden;
   width: 45%;
   margin: 10px auto;
-  min-height: 300px;
+  height: 300px;
 }
 
 #slides {
-  height: 300px;
+  height: 100%;
   width: 200%;
   border-bottom: 2px solid var(--cor4);
   display: flex;
