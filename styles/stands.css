@@ -33,6 +33,42 @@ section {
   box-shadow: inset -1px 4px 11px -8px var(--cor5);
 }
 
+/* MENU MOBILE */
+
+#menuMobile {
+  position: fixed;
+  background-color: rgba(126, 126, 126, 0.973);
+  right: -60%;
+  width: 60%;
+  height: 100vh;
+  z-index: 3;
+  padding: 40px;
+  color: black;
+  border-radius: 5px 0 0 5px;
+  font-size: 2em;
+  transition: right 0.5s;
+  border-left: 4px solid rgb(0, 0, 0);
+}
+
+#menuMobile.show {
+  right: 0px;
+}
+
+#botaomenuClose {
+  text-align: end;
+  cursor: pointer;
+}
+
+#menuMobile ul {
+  list-style: none;
+}
+
+#menuMobile a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
 /* HEADER */
 header {
   background-color: var(--cor1);

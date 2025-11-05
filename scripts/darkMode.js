@@ -1,7 +1,7 @@
 let ONorOFF_darkMode = false;
 let interruptor = document.getElementById('interruptor_darkMode');
 
-darkMode.addEventListener('click', function darkModeOn() {
+darkMode.addEventListener('click', ()=> {
     const root = document.documentElement;
     
     if (!ONorOFF_darkMode) {
