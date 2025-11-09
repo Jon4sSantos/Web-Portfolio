@@ -55,6 +55,11 @@ section#habilidades>h2 {
 /* PROJETOS */
 /* SLIDER */
 
+#slider {
+     width: 100%;
+     height: 200px;
+}
+
 
 #slides {
     width: 200%;
