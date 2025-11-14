@@ -1,10 +1,10 @@
 let ONorOFF_darkMode = false;
 let interruptor = document.getElementById('interruptor_darkMode');
 
-darkMode.addEventListener('click', ()=> {
+interruptor.addEventListener('click', ()=> {
     const root = document.documentElement;
     
-    if (!ONorOFF_darkMode) {
+    if (!ONorOFF_darkMode) {    
         interruptor.style.left = '60%';
         root.style.setProperty('--cor1', '#ffffff');
         root.style.setProperty('--cor2', '#7d7d7d');
@@ -21,5 +21,4 @@ darkMode.addEventListener('click', ()=> {
         root.style.setProperty('--cor5', '#ffffff');
         ONorOFF_darkMode = false;
     }
-
-})
+});

@@ -60,3 +60,7 @@ section#habilidades>h2 {
     width: 200%;
     display: flex;
 }
+
+.projeto {
+    padding: 20px;
+}

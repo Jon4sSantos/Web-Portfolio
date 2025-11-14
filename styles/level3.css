@@ -54,6 +54,10 @@ section#habilidades > h2 {
   height: 400px;
 }
 
+#slides img {
+  object-fit: contain;
+}
+
 /* PROJETOS */
 #projetos {
   display: grid;

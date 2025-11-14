@@ -278,7 +278,6 @@ section#meusProjetos {
 #slider {
   border-radius: 5px;
   overflow: hidden;
-  width: 45%;
   margin: 10px auto;
   height: 300px;
 }
@@ -302,7 +301,7 @@ section#meusProjetos {
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 #manual-navigation {
