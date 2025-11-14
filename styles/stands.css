@@ -131,7 +131,7 @@ main {
 
 /* SOBRE MIM */
 section#sobreMim {
-  min-height: 250px;
+  min-height: 300px;
   padding: 10px;
   display: flex;
 }
@@ -155,16 +155,16 @@ section#sobreMim {
 
 #sobreMim picture {
   min-width: 150px;
-  margin: auto;
   height: 150px;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #sobreMim picture > img {
   border-radius: 50%;
   height: 100%;
-  width: 100%;
+  width: 40%;
   object-fit: cover;
   object-position: top;
   border: 5px solid var(--cor2);
@@ -350,7 +350,7 @@ section#meusProjetos {
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .projeto h3 {
@@ -365,7 +365,6 @@ section#meusProjetos {
 .projeto picture {
   width: 100%;
   cursor: pointer;
-  padding: 30px;
 }
 
 .projeto picture img {
@@ -374,7 +373,6 @@ section#meusProjetos {
   height: 100%;
   border-radius: 20px;
 }
-
 
 /* FOOTER */
 footer {
